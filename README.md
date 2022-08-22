@@ -28,3 +28,11 @@ Prerequisites
 1) Linux
 2) Docker
 3) Docker-compose
+
+First step was creating 3 separate nodes with docker run command for following output 
+goodwinbg@scyllatraining:~$ docker run --name BrianExercise1 -d scylladb/scylla
+a8d47166c0754feb8873d3f560606fee438b3a8382eb198348d90762ad3a9dca
+goodwinbg@scyllatraining:~$ docker run --name BrianExercise2 -d scylladb/scylla
+a3dd8d62b4aa9d9b4a289d0858c468453cccb23e132fbd09036afc2e6289931c
+goodwinbg@scyllatraining:~$ docker run --name BrianExercise3 -d scylladb/scylla
+79b4c4f9f8d8e154eb4d97e8178a636cce907a64f99ee6ae593e759610e23ee0
